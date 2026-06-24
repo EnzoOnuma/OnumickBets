@@ -38,6 +38,7 @@ main h2 {
   font-weight: normal;
   margin-bottom: 30px;
   margin-top: 40px;
+  margin-left: 295px;
 }
 
 .card {
@@ -100,10 +101,6 @@ main h2 {
 
 .botao-palpite:hover {
   filter: brightness(0.9);
-}
-
-#historico h2{
-    margin-top: 0;
 }
 
 footer {
