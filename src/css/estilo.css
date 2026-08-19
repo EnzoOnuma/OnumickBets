@@ -114,3 +114,21 @@ footer {
   left: 0;
   width: 100%;
 }
+.bg-success{
+  color: rgb(114, 245, 114);
+}
+
+.bg-warning{
+  color: yellow;
+}
+
+.bg-danger{
+  color: rgb(189, 24, 24);
+}
+
+#historico{
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: var(--bg-color);
+  border-radius: 1rem;
+}
