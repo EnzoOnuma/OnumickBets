@@ -4,6 +4,9 @@
   --bg-card: #D7A12D;
   --text-color: #ffefff;
   --btn-color: #B58826;
+  --bg-success:rgb(104, 221, 104);
+  --bg-warning:yellow;
+  --bg-danger:rgb(136, 40, 40);
 }
 
 * {
@@ -88,6 +91,10 @@ main h2 {
   font-size: 16px;
 }
 
+.card-jogo img{
+  width: 75px;
+  margin: 10px;
+}
 
 .botao-palpite {
   background-color: var(--btn-color);
@@ -118,15 +125,15 @@ footer {
   width: 100%;
 }
 .bg-success{
-  color: rgb(114, 245, 114);
+  color: var(--bg-success);
 }
 
 .bg-warning{
-  color: yellow;
+  color: var(--bg-warning);
 }
 
 .bg-danger{
-  color: rgb(189, 24, 24);
+  color:var(--bg-danger);
 }
 
 #historico{
