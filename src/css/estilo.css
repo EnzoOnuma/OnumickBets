@@ -27,7 +27,7 @@ body {
 body header {
   background-color: var(--bg-logo);
   display: flex;
-  padding: 30px 5%;
+  padding:15px 5%;
 }
 
 body header h1 {
