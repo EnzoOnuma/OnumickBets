@@ -16,6 +16,9 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 body header {
@@ -31,6 +34,7 @@ body header h1 {
 
 main {
   padding: 40px 5%;
+  flex: 1;
 }
 
 main h2 {
@@ -109,7 +113,6 @@ footer {
   margin-top: 50px;
   font-size: 14px;
   margin-top: auto;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
